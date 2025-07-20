@@ -1,1 +1,11 @@
 @import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Mona+Sans:ital,wght@0,200..900;1,200..900&display=swap');
+@theme {
+    --font-Mono: 'Mona Sans', sans-serif;
+    --color-orange: #FD5B02;
+    --color-simpleCoffee: #241F21;
+    --color-grey: #D6D6D6;
+}
+* {
+    font-family: var(--font-Mono);
+}
